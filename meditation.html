@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicWoob - Music Distributor, Label, & Artists Management Services</title>
+    <meta name= “description” content = “MusicWoob is an Indian based Music Distribution company and Label which also provide Artist management services and helping their artist for Musical Event. ”>
+    <meta name= “keywords” content= “Music Distribution , Artist Management, Content ID , Youtube Certified,Indian Music Label, 100% Free Music Distribution Provider,Release Your Music Free on all Music Platforms like Wynk Music, Jio Savan, Spotify, Apple Music, Tidal, Napster, Youtube Music, Youtube Content ID, Facebook/Instagram Music,Tiktok, Snapchat + more than 100 Music Platforms ”>
+    <meta name= “robots” content= “INDEX, FOLLOW”>
+
+    <link rel="icon" href="image/logo/logo.png" type="image/icon type">
+<style>
+   
+.play {
+
+    align-items: center;
+
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.play {
+    background-color: #28a745;
+}
+
+button.pause {
+    background-color: #dc3545;
+}
+
+
+
+footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    color: #bbb;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+
+</style>
+
+   
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="https://musicwoob.com"><img src="image/logo/logo.svg" alt="MusicWoob Logo"></a>
+       
+            
+
+                <div class="audio-player">
+                    <audio id="audio" src="https://aac.saavncdn.com/946/4d7321172e957ca899d9809b047526d0_160.mp4"></audio>
+                    <button id="play-pause" class="play">Play Sound</button>
+                </div>
+
+        
+
+          
+
+
+        </nav>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="scripts.js"></script>
+    </header>
+
+
+ 
+
+
+   
+    <div><img style="width: 100% " src="image/focus.gif" alt="">
+
+
+<script>document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('audio');
+    const playPauseButton = document.getElementById('play-pause');
+
+    playPauseButton.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.textContent = 'Pause';
+            playPauseButton.classList.remove('play');
+            playPauseButton.classList.add('pause');
+        } else {
+            audio.pause();
+            playPauseButton.textContent = 'Play';
+            playPauseButton.classList.remove('pause');
+            playPauseButton.classList.add('play');
+        }
+    });
+});
+</script>
+
+
+<iframe width="100%" height="52" src="https://odesli.co/embed/?url=https%3A%2F%2Fsong.link%2Fi%2F1732884416&theme=dark" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-presentation allow-popups allow-popups-to-escape-sandbox" allow="clipboard-read; clipboard-write"></iframe>
+
+<footer>
+
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>How It Work ?</h3>
+            <p>Focus on Middle Point which is blinking. If other 3 yellow dot disappear, you will said to be focused. Play given sound for better experience.</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://musicwoob.com">Home</a></li>
+                <li><a href="https://musicwoob.com">About</a></li>
+                <li><a href="https://musicwoob.com">Services</a></li>
+                <li><a href="https://musicwoob.com">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/musicwoob">Facebook</a>
+            <a href="https://www.Twitter.com/musicwoob">Twitter</a>
+            <a href="https://www.Instagram.com/musicwoob">Instagram</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 MusicWoob Pvt. Ltd | Designed By SHITIZ
+    </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
